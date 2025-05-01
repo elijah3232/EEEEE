@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: aquamarine;
+}
+
+#product-list {
+  float: left;
+  width: 60%;
+}
+
+#shopping-cart {
+  float: right;
+  width: 30%;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.product button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #3e8e41;
+}
